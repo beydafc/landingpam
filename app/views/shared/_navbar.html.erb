@@ -28,9 +28,23 @@
             </div>
           </li>
         <% else %>
-          <li>
-            <%= link_to "Login", new_user_session_path, class: "btn-navbar" %>
-          </li>
+          <div class="col-8 d-flex">
+            <li>
+              <%= link_to "Admin", new_user_session_path, class: "btn-navbar" %>
+            </li>
+            <li>
+              <%= link_to "Inicio", "#", class: "btn-navbar" %>
+            </li>
+            <li>
+              <%= link_to "Nosotros", "#", class: "btn-navbar" %>
+            </li>
+            <li>
+              <%= link_to "Servicios", "#", class: "btn-navbar" %>
+            </li>
+            <li>
+              <%= link_to "Contacto", "#", class: "btn-navbar" %>
+            </li>
+          </div>
         <% end %>
       </ul>
     </div>
