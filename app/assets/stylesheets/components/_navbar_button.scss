@@ -2,12 +2,13 @@
   color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: linear-gradient(#2EC1F1, #2491B5);
+  background: linear-gradient(#259bc3, #2080a0);
   transition: background 0.3s ease;
   text-decoration: none;
+  margin-right: 20px;
 }
 
 .btn-navbar:hover {
-  background: linear-gradient(#1d97c0, #185d75);
+  background: linear-gradient(#16718f, #103d4d);
   color: white;
 }
